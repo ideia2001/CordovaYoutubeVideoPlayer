@@ -3,6 +3,7 @@
 //
 
 #import <Availability.h>
+#import <TargetConditionals.h>
 
 #import "XCDYouTubeClient.h"
 #import "XCDYouTubeError.h"
@@ -13,3 +14,5 @@
 #if TARGET_OS_IPHONE
 #import "XCDYouTubeVideoPlayerViewController.h"
 #endif
+
+
