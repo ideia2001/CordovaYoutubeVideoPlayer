@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-youtube-video-player",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "**Play Youtube Videos in a native Video Player on Android &amp; iOS.**",
   "main": "index.js",
   "scripts": {
