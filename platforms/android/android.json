@@ -1,0 +1,32 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.bunkerpalace.cordova.YoutubeVideoPlayer": {
+            "PACKAGE_NAME": "com.bunkerpalace.YoutubVideoPlayerProject"
+        },
+        "org.apache.cordova.console": {
+            "PACKAGE_NAME": "com.bunkerpalace.YoutubVideoPlayerProject"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/com.bunkerpalace.cordova.YoutubeVideoPlayer/www/YoutubeVideoPlayer.js",
+            "id": "com.bunkerpalace.cordova.YoutubeVideoPlayer.YoutubeVideoPlayer",
+            "pluginId": "com.bunkerpalace.cordova.YoutubeVideoPlayer",
+            "clobbers": [
+                "YoutubeVideoPlayer"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "com.bunkerpalace.cordova.YoutubeVideoPlayer": "1.0.0",
+        "org.apache.cordova.console": "0.2.10"
+    }
+}
